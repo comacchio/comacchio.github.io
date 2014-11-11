@@ -1,0 +1,62 @@
+#lightbox{
+    display:block;
+    width:99%;
+    margin:auto;
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton { top: 5px; right: 5px; max-width:30px; width:30px;}
+
+#lightbox img{ width: 100%; border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(images/overlay.png); }
+
+* html #overlay{
+    width: 100%;
+    background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(images/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/overlay.png", sizingMethod="scale");
+	}
+	
+
+@media screen and (min-width: 75em) {
+    #lightbox{
+    display:block;
+    width:80%;
+    margin:auto;
+    
+    position: inherit;
+	background-color:#eee;
+	padding: 10px;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton { top: 5px; right: 5px; max-width:30px; width:30px;}
+
+#lightbox img{ width: 100%; border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(images/overlay.png); }
+
+* html #overlay{
+    width: 100%;
+    background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(images/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/overlay.png", sizingMethod="scale");
+	}
+}
