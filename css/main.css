@@ -2,6 +2,7 @@
 html{
 	font-family:"Helvetica Neue", Helvetica, Gotham, Arial, sans-serif;
 	font-weight:300;
+    /*background-image:ulr(beige_paper.png);*/
 	background-color:#E3D7AF;
 }
 
@@ -33,6 +34,14 @@ html{
         *zoom: 1; 
     }
 
+    .flex{
+        display: block;
+        width: 100%;
+    }
+
+    .hidden{
+        display: none;
+    }
 
 @media screen and (min-width: 15em) {
 header {
