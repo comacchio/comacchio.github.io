@@ -1,18 +1,19 @@
 # TEAM
 
 Designer & developer: Jennifer Comacchio
-E-mail: hello@jennifercomacchio.ca
+E-mail: hello@jennifercomacchio.ca, jennifercomacchio@gmail.com
 Site: http://jennifercomacchio.ca
-Github: http://github.com/jennifercomacchio??
-Twitter: @???
+Github: http://github.com/comacchio/comacchio.github.io
+
 Location: Ottawa, Canada
 
 --
 
 # THANKS
 
-slideshow from Some Person <http://slideshow.com>
-Big Image © Another Person <http://geddyimages.com>
+Lightbox from <http://lokeshdhakar.com/projects/lightbox2/>
+Animation assisstance from <http://jakearchibald.com/2013/animated-line-drawing-svg/>
+Help coding EVERYTHING @thomasjbradley
 
 --
 
