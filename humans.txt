@@ -1,0 +1,23 @@
+# TEAM
+
+Designer & developer: Jennifer Comacchio
+E-mail: hello@jennifercomacchio.ca
+Site: http://jennifercomacchio.ca
+Github: http://github.com/jennifercomacchio??
+Twitter: @???
+Location: Ottawa, Canada
+
+--
+
+# THANKS
+
+slideshow from Some Person <http://slideshow.com>
+Big Image © Another Person <http://geddyimages.com>
+
+--
+
+# TECHNOLOGY
+
+-Sublime text
+-Github
+-Hover.com
