@@ -40,9 +40,13 @@ html{
         width: 100%;
     }
 
-    .hidden{
+    /*.hidden{
         display: none;
-    }
+    }*/
+
+svg:not(:root) {
+  overflow: hidden;
+}
 
 @media screen and (min-width: 15em) {
     header {
@@ -56,6 +60,11 @@ html{
         z-index:3;
         margin-top: 4.6em;
         position:relative;
+    }
+    
+    .header-image svg {
+        display: block;
+        width: 100%;
     }
 
     .socialmediaicons {
@@ -162,21 +171,24 @@ html{
     }
 
     .socialmedia-bottom img{
-        max-width: 35px;
+        display:block;
     }
 
     .socialmedia-bottom {
         text-align: center;
-        width: 35%;
-        max-width: 50px;
+        width: 30px;
         margin: 0 6px;
         list-style: none;
-        display: inline;
-        float:inherit;
+        display: inline-block;
+    }
+    
+    .socialmedia-bottom a{
+        display: block;
     }
 
-    .socialmedia-bottom:hover{
-        background-color: #568E7F;   
+    .socialmedia-bottom a:hover{
+        background-color: #568E7F; 
+        
     }
     
 
@@ -248,10 +260,7 @@ html{
         width:50%;
         float: left;       
     }
-    .socialmedia-bottom img{
-        max-width: 50px;
-        width: 35%;
-    }
+
 }
 
 @media screen and (min-width: 32em) {
