@@ -2,8 +2,9 @@
 html{
 	font-family:"Helvetica Neue", Helvetica, Gotham, Arial, sans-serif;
 	font-weight:300;
-    background-image:url(../img/beige_paper/beige_paper.png);
+    /*background-image:url(../img/beige_paper/beige_paper.png);*/
 	/*background-color:#E3D7AF;*/
+    background-color:#fffffF;
 }
 
 .grid {
