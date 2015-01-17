@@ -245,11 +245,18 @@ h2{
         text-align: center;
         width: 90%;
     }
+    
+    .socialmedia-bottom img{
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
 
     .socialmedia-bottom {
         text-align: center;
         list-style: none;
         display: inline-block;
+        /*display: none;*/ 
     }
     
     .socialmedia-bottom a{
@@ -273,7 +280,8 @@ h2{
         /*color: #8D4647;*/
         color: #6D6E70;
         text-decoration: none;
-    }   
+    }  
+    
 
     .col-1-3-sm {
          width:33.333%;
